@@ -1,0 +1,26 @@
+@media (max-width : 750px){
+    .navbar-brand{
+        margin: auto;
+    }
+}
+
+.nav-item{
+    text-align: center;
+}
+
+.container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#spinner{
+    /* visibility: hidden; */
+    display: none
+}
+
+#random{
+    display: none;
+}

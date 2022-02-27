@@ -1,0 +1,15 @@
+@media (max-width : 767px) {
+    .navbar-brand{
+        margin: auto;
+    }
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    margin: auto;
+    
+}
