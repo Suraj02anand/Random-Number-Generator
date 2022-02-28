@@ -16,16 +16,16 @@ button.addEventListener("click", () => {
 
   setTimeout(() => {
     spinner.style.display = "none";
-    let randomNumber = Math.floor(Math.random() * (maxVal - minVal))  + minVal + 1;
-    if (type == 1) {
+    let randomNumber = Math.floor(Math.random() * (maxVal - minVal))  + (minVal + 1);
+    if (type === 1) {
       console.log("Inside Type 1");
       randomNumber = randomNumber;
-    } else if (type == 2) {
+    } else if (type === 2) {
       if (randomNumber % 2 == 0) {
         console.log("Inside Type 3");
         randomNumber += 1;
       }
-    } else if (type == 3) {
+    } else if (type === 3) {
       if (randomNumber % 2 != 0) {
         console.log("Inside Type 3");
         randomNumber += 1;
