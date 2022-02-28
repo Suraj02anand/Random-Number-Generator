@@ -2,9 +2,9 @@
 let minRange = document.getElementById("minRange");
 let maxRange = document.getElementById("maxRange");
 let selectTag = document.getElementById("type");
-let selectedOption = selectTag.options[selectTag.selectedIndex];
 
 document.querySelector('form').addEventListener('submit',(e)=>{
+    let selectedOption = selectTag.options[selectTag.selectedIndex];
     if(isNaN(parseInt(minRange.value)) || parseInt(isNaN(maxRange.value))){
         alert('Invalid Format')
     }
